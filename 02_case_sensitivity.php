@@ -25,8 +25,7 @@ if($val == null) {
 // Je kan dit zelfs oplossen ZONDER de concatenatie-opeartor
 // te gebruiken als je $ kan escapen.
 
-
-
-
+echo '<p>de waarde van $waarde is '. $waarde .'</p>';
+echo "<p>de waarde van \$waarde is $waarde</p>";
 
 ?>
